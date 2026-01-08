@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 1px solid #444;
+}
+
+header {#1a1a1a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #444;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.visit-counter {
+    font-size: 1.2em;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+#visitCount {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+section {
+    padding: 40px 30px;
+    border-bottom: 1px solid #444;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.interest-section333
+    background: #f8f9ff;
+}
+
+.interest-section h2 {
+    text-align: center;
+}
+
+.interest-section > p {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #aaa;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-yes {
+    background: #4CAF50;
+    color: white;
+}
+
+.btn-yes:hover {
+    background: #45a049;
+}
+
+.btn-maybe {
+    background: #FF9800;
+    color: white;
+}
+
+.btn-maybe:hover {
+    background: #e68900;
+}
+
+.btn-no {
+    background: #f44336;
+    color: white;
+}
+
+.btn-no:hover {
+    background: #da190b;
+}
+
+.btn.selected {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+}
+
+.response-stats {
+    background: #3a3a3a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #555;
+}
+
+.response-stats h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.response-stats p {
+    font-weight: 500;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.response-stats p span {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.note {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.hidden {
+    display: none;
+}
+
+.about-section {
+    background: #2a2a2a;
+}
+
+.about-content {
+    line-height: 1.8;
+    color: #555;
+}
+
+.profile-image {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #555;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.profile-image img:hover {
+    transform: scale(1.05);
+}
+
+.about-content {
+    line-height: 1.8;
+    color: #555;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+    font-size: 1.05em;
+}
+
+.about-content strong {
+    color: #fff;
+}
+
+.survey-section {
+    background: #333;
+    text-align: center;
+}
+
+.survey-section p {
+    margin-bottom: 20px;
+    color: #aaa;
+    font-size: 1.05em;
+}
+
+.survey-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background: #555;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    margin: 20px 0;
+}
+
+.survey-btn:hover {
+    transform: translateY(-3px);
+    background: #666;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
+}
+
+.survey-note {
+    font-siz7770.9em;
+    color: #999;
+    margin-top: 15px;
+}
+
+footer {
+    background: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 25px;
+    font-size: 0.95em;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+footer small {
+    color: #999;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .button-group {
+        gap: 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    section {
+        padding: 25px 15px;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+}
