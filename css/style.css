@@ -75,6 +75,7 @@ h2 {
     text-align: center;
     margin-bottom: 25px;
     color: #aaa;
+    background: #e06161;
 }
 
 .button-group {
@@ -173,8 +174,12 @@ h2 {
     display: none;
 }
 
+.main-question {
+    background: #8555d1;
+}
+
 .about-section {
-    background: #2a2a2a;
+    background: #51b97e;
 }
 
 .about-content {
