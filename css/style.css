@@ -63,6 +63,13 @@ h2 {
     font-size: 1.8em;
 }
 
+.interest-section {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #aaa;
+    background: #9261e0;
+}
+
 .interest-section333
     background: #f8f9ff;
 }
