@@ -32,12 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
     responseStats?.classList.remove('hidden');
   }
 
-  function disableButtons() {
-    yesBtn.disabled = true;
-    maybeBtn.disabled = true;
-    noBtn.disabled = true;
-  }
-});
+function disableButtons() {
+    yesBtn.style.display = 'none';
+    maybeBtn.style.display = 'none';
+    noBtn.style.display = 'none';
+}
+
 
 function sendToGoogle(response) {
   const data = new URLSearchParams();
